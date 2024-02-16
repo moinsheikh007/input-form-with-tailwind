@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .btn {
+        @apply bg-blue-700 text-white py-2 my-2 rounded-md font-medium
+    }
+}
+
 @layer base {
     h1 {
         @apply text-4xl;
